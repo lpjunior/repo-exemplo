@@ -1,0 +1,11 @@
+1. Contagem de 1 a 10:
+tipo: for simples
+Objetivo: Imprimir os números de 1 a 10 na tela.
+
+2. Tabuada de um número:
+tipo: for simples
+Objetivo: Solicitar ao usuário um número e imprimir a tabuada desse número de 1 a 10.
+
+3. Soma de números pares:
+tipo: for com condição
+Objetivo: Calcular a soma dos números pares de 1 a 100.

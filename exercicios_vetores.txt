@@ -1,0 +1,18 @@
+Exercício: Gerenciador de Alunos
+Descrição:
+Crie um programa que gerencie uma lista de alunos em uma turma.
+O programa deve permitir ao usuário inserir nomes,
+organizar e manipular a lista usando os métodos estudados.
+
+Passo a passo para resolver o exercício:
+1. Peça ao usuário que digite os nomes dos alunos separados por vírgula.
+2. Mostre:
+    - Quantos alunos foram cadastrados
+    - O nome do primeiro e do último aluno da lista
+3. Peça ao usuário para adicionar mais um aluno no final da lista.
+4. Peça ao usuário para adicionar um aluno no início da lista.
+5. Peça ao usuário para remover um aluno pelo nome.
+6. Mostre a lista de alunos em ordem alfabética.
+7. Inverta a ordem da lista e mostre o resultado.
+8. Faça uma cópia da lista original e limpe a original.
+9. Mostre ambas as listas para o usuário.

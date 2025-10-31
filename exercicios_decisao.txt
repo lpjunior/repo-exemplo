@@ -1,0 +1,112 @@
+Exercícios de uso de variaveis:
+
+1. Saudação Simples
+Crie variaveis com seu nome e sua a idade, depois imprima uma saudação usando essas variáveis.
+
+2. Soma de dois números
+Atribua dois números a variáveis, depois imprima o resultado da soma.
+
+3. Mistura de tipos
+Use variáveis de tipos diferentes e imprima todas juntas
+
+Exercicios de uso do print:
+
+1. [f-string] Mostre na tela uma frase como:
+    "Olá, Luis! Você tem 38 anos."
+
+   Continue o código:
+   nome = input("Digite seu nome: ")
+   idade = int(input("Digite sua idade: "))
+   # Escreva o print usando f-string aqui
+
+2. [concatenação] Peça ao usuário o nome de uma cidade e de um estado. Mostre:
+   "Você mora em São Paulo, SP."
+
+   Continue o código:
+   cidade = input("Digite o nome da cidade: ")
+   estado = int(input("Digite o estado: "))
+   # Escreva o print com concatenação(+) aqui
+
+3. [virgula] Crie variaveis e mostre:
+    "O gato tem 4 anos."
+
+   Continue o código:
+   animal = 'gato'
+   idade = 4
+   # Escreva o print usando virgula(,) aqui
+
+4. [.format()] Crie variáveis e mostre:
+    "As notas foram 8.5 e 9.0, a média é 8.75."
+
+   Continue o código:
+   nota1 = 8.5
+   nota2 = 9.0
+   media (nota1 + nota2)/2
+   # Escreva o print usando .format() aqui
+
+------------------------------------------------------------------------------------------------------------------------
+Exercicios de estrutura de decisão:
+
+Atividade 1 – Número positivo
+
+Objetivo: praticar o uso do if.
+
+Peça ao usuário para digitar um número inteiro.
+O programa deve verificar se o número é maior que zero.
+Se for, mostre a mensagem:
+"O número é positivo."
+
+Atividade 2 – Par ou ímpar
+
+Objetivo: usar if e else.
+
+Peça ao usuário para digitar um número inteiro.
+O programa deve verificar se o número é par ou ímpar.
+Mostre a mensagem:
+"O número é par." se o número for divisível por 2.
+"O número é ímpar." caso contrário.
+
+4 % 2 = resto 0
+5 % 2 = resto 1
+
+Na programação, usamos o operador % para obter o resto de uma divisão.
+
+Atividade 3 - Classificação de nota
+Objetivo: usar if, elif e else.
+
+Peça ao usuário para digitar uma nota entre 0 e 10.
+O programa deve mostraaar a seguinte mensagem:
+- Exclente, se a nota for maior ou igual a 9.
+- Bom, se a nota for maior ou igual a 7 e menor que 9.
+- Regular, se a nota for entre 5 e 6,9.
+- Insuficiente, se a nota for menor que 5.
+
+
+Atividade 4 - Menu de operações
+Objetivo: usar if, elif e else.
+
+Mostre o seguinte menu na tela:
+1 - somar
+2 - subtrair
+3 - multiplicar
+4 - dividir
+
+Peça ao usuário para escolher uma opção (1, 2, 3 ou 4).
+- "Você escolheu somar." se a opção for 1.
+- "Você escolheu subtrair." se a opção for 2.
+- "Você escolheu multiplicar." se a opção for 3.
+- "Você escolheu dividir." se a opção for 4.
+- "Opção inválida." para qualquer outro número.
+
+Atividade 5 - Entrada gratuita
+Objetivo: usar operadores lógicos.
+Crie um programa que pergunte a idade do usuário e se é estudante.
+A entrada é gratuita se a pessoa tiver menos de 12 anos ou for estudante.
+Mostre a mensagem:
+"Entrada gratuita." se a pessoa tiver menos de 12 anos ou for estudante.
+"Entrada paga." caso contrário.
+
+
+django framework web para Python
+hospedar o site (aplicação web) no Render
+banco de dados vai ser o PostgreSQL (acesso remoto usando o Supabase)
