@@ -324,7 +324,6 @@ if idade < 12 or estudante == 's':
 else:
     print("Entrada paga.")
 
-
 porta_trancada = False
 
 if not porta_trancada:
