@@ -64,4 +64,3 @@ alunos.clear()
 # 9. Mostrar listas
 print("\nLista original limpa:", alunos)
 print("Cópia da lista original:", copia_alunos)
-
