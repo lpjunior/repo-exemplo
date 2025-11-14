@@ -1,4 +1,5 @@
-from funcoes.operacoes import somar, subtrair, multiplicar, dividir
+from exemplos_funcoes_modularizacao.funcoes.operacoes import somar, subtrair, multiplicar, dividir, modulo
+
 
 def ler_numero(mensagem: str) -> float:
     while True:
@@ -14,7 +15,8 @@ def mostrar_menu():
     print("2) subtração")
     print("3) multiplicação")
     print("4) divisão")
-    print("5) sair")
+    print("5) modulo")
+    print("6) sair")
 
 def executar():
     print("=== Calculadora Senac ===")
@@ -22,11 +24,11 @@ def executar():
         mostrar_menu()
         opcao = input("Opção: ")
 
-        if opcao == "5":
+        if opcao == "6":
             print("Encerrando. Até a próxima.")
             break
 
-        if opcao not in ["1", "2", "3", "4"]:
+        if opcao not in ["1", "2", "3", "4", "5"]:
             print("Opção inválida. Tente novamente.")
             continue
 
@@ -44,9 +46,12 @@ def executar():
         elif opcao == "3":
             resultado = multiplicar(a, b)
             simbolo = "*"
-        else:
+        elif opcao == "4":
             resultado = dividir(a, b)
             simbolo = "/"
+        else:
+            resultado = modulo(a, b)
+            simbolo = "%"
 
         print(f"Resultado: {a} {simbolo} {b} = {resultado}")
 

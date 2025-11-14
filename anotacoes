@@ -1,0 +1,12 @@
+1- etapa 1 - projeto sem funções e modularização
+2- fix: correção no calculo de notas, onde a média estava gerando ponderada.
+3. etapa 2 ....
+
+------------------------------------------------------------------------------------------
+
+1. Identificar execução direta ou importada
+Crie um arquivo chamado identificador.py que contenha:
+- uma função mensagem() que imprime a frase 'Este arquivo foi importado'
+- um bloco if __name__ == '__main__' que imprime 'Este arquivo está sendo executado diretamente'
+
+Crie outro arquivo teste_identificador.py, importe identificador e observe a saída.

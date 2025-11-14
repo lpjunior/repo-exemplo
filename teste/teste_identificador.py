@@ -1,0 +1,3 @@
+import identificador
+
+identificador.mensagem()
